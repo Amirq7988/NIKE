@@ -1,0 +1,56 @@
+body {
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url(../raduo/Bold\ White\ NIKE\ on\ Red.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+.section1 a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-top: 15px;
+}
+.section2 {
+    max-width: 700px;
+    margin: auto;
+}
+.section2 img {
+    width: 23%;
+    aspect-ratio: 3/2;
+    padding: 12px;
+    margin-top: 90%;
+    margin-left: 38px;
+    border-radius: 20px;
+    transition: ease 2s;
+    transition: 1s;
+    cursor: pointer;
+}
+.section2 img:hover {
+    transform: scale(1.1);
+}
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+.section3 a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 7px white;
+}
+.section2 a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin: 20px;
+    margin-left: 120px;
+}
